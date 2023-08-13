@@ -1,0 +1,114 @@
+<MDBIcon fab icon="angellist" />
+// ds=isplaygridddddddd
+display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: 1rem;
+
+
+https://mdbgo.io/marta-szymanska/mdb5-demo-pro-dark/pro/components/full-demo.html 
+
+
+
+https://mui.com/material-ui/material-icons/?selected=AddAPhoto
+    // const [selectedImage, setSelectedImage] = useState(null);
+
+    // const handleImageClick = (image) => {
+    //   setSelectedImage(image);
+    // };
+  
+    // const handleCloseImage = () => {
+    //   setSelectedImage(null);
+    // };
+    // const handleKeyPress = (event) => {
+    //     if (event.key === 'Escape') {
+    //         handleCloseImage();
+    //     }
+    // };
+    // useEffect(() => {
+    //     document.addEventListener('keydown', handleKeyPress);
+    //     return () => {
+    //       document.removeEventListener('keydown', handleKeyPress);
+    //     };
+    //   }, []);
+
+
+
+
+
+
+
+                                //   onClick={({ index: current }) => setIndex(current)}
+
+
+
+
+
+
+
+
+                                {/* <Lightbox
+                              plugins={[Fullscreen, Download, Zoom]}
+                                fullscreen={{ ref: fullscreenRef }}
+                                on={{
+                                  click: () => fullscreenRef.current?.enter()
+                              }}
+                            //   index={index}
+                                open={index >= 0}
+                                close={() => setIndex(-1)}
+        slides={[
+          { src: image.img, downloadUrl:image.img}
+                              ]}
+                              animation={{ zoom: 500 }}
+                              zoom={{
+                                maxZoomPixelRatio: 1,
+                                zoomInMultiplier: 2,
+                                doubleTapDelay: 300,
+                                doubleClickDelay: 500,
+                                doubleClickMaxStops: 2,
+                                keyboardMoveDistance: 50,
+                                wheelZoomDistanceFactor: 100, 
+                                pinchZoomDistanceFactor: 100,
+                              }}
+      /> */}
+
+
+      import FsLightbox from "fslightbox-react";
+
+      import React from 'react';
+import { toast } from 'react-toastify';
+
+function Example() {
+  const toastId = React.useRef(null);
+
+  const notify = () => toastId.current = toast("Hello", { autoClose: false });
+
+  const update = () => toast.update(toastId.current, { type: toast.TYPE.INFO, autoClose: 5000 });
+
+  return (
+    <div>
+      <button onClick={notify}>Notify</button>
+      <button onClick={update}>Update</button>
+    </div>
+  );
+}
+
+ // With a string
+ toast.update(toastId, {
+    render: "New content",
+    type: toast.TYPE.INFO,
+    autoClose: 5000
+  });
+
+// Or with a component
+toast.update(toastId, {
+    render: MyComponent
+    type: toast.TYPE.INFO,
+    autoClose: 5000
+});
+
+toast.update(toastId, {
+    render: () => <div>New content</div>
+    type: toast.TYPE.INFO,
+    autoClose: 5000
+});

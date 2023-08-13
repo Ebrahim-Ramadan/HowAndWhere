@@ -1,0 +1,11 @@
+a#sharmojj{
+    color: #c1ebff;
+    font-family: 'NEOPIXEL-Regular', Arial, sans-serif;
+/* margin-top: -50px; */
+display: flex;
+justify-content: space-between;
+z-index: 9999;
+}
+a#sharmojj:hover{
+opacity: 0.85;
+}

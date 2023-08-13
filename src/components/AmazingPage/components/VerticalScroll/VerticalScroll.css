@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 16px;
+  line-height: 1.8;
+  background: linear-gradient(250deg, #7b2ff7, #f107a3);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: blue;
+    transform-origin: 0%;
+    z-index:999
+  }
+  
+  
+  .parallax {
+    overflow: hidden;
+    letter-spacing: -2px;
+    line-height: 0.8;
+    margin: 0;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .parallax .scroller {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 64px;
+    display: flex;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .parallax span {
+    display: block;
+    margin-right: 30px;
+  }
+  
+  
+  .VerticalScroll-progress, .VerticalScroll-indicator{
+    stroke: #B1BDC5;
+  }

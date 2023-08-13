@@ -1,0 +1,15 @@
+div.contacts{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+div.contacts svg{
+    font-size: large;
+cursor: pointer;
+margin: 5px;
+}
+
+div.contacts svg:hover{
+    opacity: 0.8;
+}

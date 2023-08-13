@@ -1,0 +1,17 @@
+.navbar-featured-desirebased a{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight:400;
+    text-decoration: none;
+
+}
+.navbar-featured-desirebased a.active{
+   color: rgb(214, 239, 239);
+   /* background-color: #8B8D91; */
+   font-weight:900;
+
+}
+.navbar-featured-desirebased{
+    display: flex;
+    justify-content: center;
+}

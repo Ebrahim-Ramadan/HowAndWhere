@@ -1,0 +1,16 @@
+circle,
+rect,
+line#shapeID {
+  stroke-width: 10px;
+  stroke-linecap: round;
+  fill: transparent;
+}
+div.shapes{
+  display: flex;
+  justify-content: center;
+}
+div.AmazingPage-head{
+padding: 50px;
+background: linear-gradient(250deg, #7c2ff7c0, #ec5ebdb4);
+background-repeat: no-repeat;
+}

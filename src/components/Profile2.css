@@ -1,0 +1,65 @@
+
+.page-content{
+    margin-top: -80px;
+}
+.upperpart{
+    display:flex;
+     justify-content:center;
+}
+
+div.PFPandHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+div.PFPandHeader img.PFP{
+    margin-top: 350px;
+}
+
+div.usernameINFO{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+    
+
+.dropdownItem.follower-following div{
+font-weight: bolder;
+    font-size: 20px;
+    min-height: 50px;
+}
+.dropdownItem.follower-following:hover{
+    background-color: rgba(238, 238, 238, 0.459);
+}
+.dropdownItem.follower-following{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+border-radius: 5px;
+margin: 5px;
+text-align: center;
+align-items: center;
+}
+.followersX{
+    display: flex;
+    justify-content: space-around;
+}
+.MuiBox-root.css-mwec9x{
+    background-color: rgba(79, 78, 78, 0.47);
+}
+span.twofollowers:hover{
+color: rgb(1, 135, 207);
+cursor: pointer;
+}
+span, p, h6, h3, a{
+    transition: all 0.2s ease;
+}
+.classifyList{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.classifyList a, a{
+    font-weight: bolder;
+}
